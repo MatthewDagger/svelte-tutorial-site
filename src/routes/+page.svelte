@@ -1,2 +1,23 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    let updated_date = new Date().toDateString()
+
+    const updateDate = () => {
+        updated_date = new Date().toDateString()
+    }
+</script>
+
+<div class="home">
+    <h2>Status Overview</h2>
+    <p>Last updated {updated_date}</p>
+
+    <button on:click={updateDate}> Update Status</button>
+
+</div>
+
+
+<style>
+    .home {
+        text-align: center;
+        display: block;
+    }
+</style>
