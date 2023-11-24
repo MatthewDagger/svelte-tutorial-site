@@ -1,4 +1,5 @@
 <script>
+    import RecipeCard from "$lib/recipe-card.svelte"
     let updated_date = new Date().toDateString()
 
     const updateDate = () => {
@@ -6,18 +7,19 @@
     }
 </script>
 
-<div class="home">
-    <h2>Status Overview</h2>
-    <p>Last updated {updated_date}</p>
+<div class="recipes">
+    
+    <RecipeCard></RecipeCard>
+    <RecipeCard></RecipeCard>
 
-    <button on:click={updateDate}> Update Status</button>
+    
 
 </div>
 
 
 <style>
-    .home {
-        text-align: center;
-        display: block;
+    .recipes {
+        display: flex;
+        box-sizing: border-box;
     }
 </style>
