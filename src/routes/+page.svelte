@@ -8,18 +8,21 @@
 </script>
 
 <div class="recipes">
-    
-    <RecipeCard></RecipeCard>
-    <RecipeCard></RecipeCard>
-
-    
+    <ul>
+        <li><RecipeCard></RecipeCard></li>
+        <li><RecipeCard></RecipeCard></li>
+        <li><RecipeCard></RecipeCard></li>
+    </ul>   
 
 </div>
 
 
 <style>
-    .recipes {
-        display: flex;
-        box-sizing: border-box;
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        display: inline-block;
     }
 </style>

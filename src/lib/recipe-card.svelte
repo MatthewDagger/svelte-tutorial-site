@@ -6,16 +6,15 @@
 
 <div class="card">
     <img src={recipe_image} alt="The recipe"/>
-    <h4>{recipe_name}</h4>
+    <a href="/recipe"><h4>{recipe_name}</h4></a>
     <p>{recipe_cuisine}</p>
 </div>
 
 <style>
     .card{
         background-color: #Fffaf5;
-        max-width: 400px;
-        width: 400px;
-        margin: 0 auto;
+        width: 417px;
+        margin: 20px;
         padding-bottom: 5px;      
         border-radius: 12px;
         text-align: center;
@@ -24,5 +23,14 @@
     img {
         width: 100%;
         border-radius: 12px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        color: grey;
     }
 </style>
