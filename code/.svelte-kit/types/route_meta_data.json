@@ -1,0 +1,9 @@
+{
+	"/": [],
+	"/about": [],
+	"/api/posts": [
+		"src/routes/api/posts/+server.ts"
+	],
+	"/recipe": [],
+	"/recipe/recipe-id": []
+}

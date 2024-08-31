@@ -13,7 +13,6 @@
         <li><RecipeCard></RecipeCard></li>
         <li><RecipeCard></RecipeCard></li>
     </ul>   
-
 </div>
 
 
