@@ -1,6 +1,6 @@
 <script>
-	import Pantry from "$lib/pantry.svelte";
+	import PantryPopup from "$lib/pantry-popup.svelte";
 
 </script>
 
-<Pantry/>
+<PantryPopup/>

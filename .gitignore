@@ -2,10 +2,11 @@
 node_modules
 /build
 /.svelte-kit
-/code/.svelte-kit
 /package
 .env
 .env.*
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+code/.svelte-kit/*
+code/.svelte-kit/ambient.d.ts
